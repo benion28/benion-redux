@@ -1,0 +1,23 @@
+{
+  "name": "benion-redux",
+  "version": "1.0.0",
+  "description": "Benion Redux Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Bernard Iorver",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "dependencies": {
+    "immer": "^6.0.5",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.15",
+    "redux": "^4.0.5"
+  }
+}
